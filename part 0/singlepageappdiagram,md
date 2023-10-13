@@ -24,7 +24,8 @@ participant server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
-    server-->>browser: [{ content: "Hello", date: "2023-10-13T07:45:14.095Z" }, ... ]
+    server-->>browser: [{content: "Hello", date: "2023-10-13T07:45:14.095Z" }, ... ]
     deactivate server
 
-    ```
+```
+
