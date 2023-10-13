@@ -1,6 +1,6 @@
 # fso
 
-```mermaid
+
 sequenceDiagram
     participant browser
     participant server
@@ -60,7 +60,7 @@ sequenceDiagram
     activate server
     server-->>browser: [...{ "content": "fever","date": "2023-10-13T06:41:05.869Z"}}]
     deactivate server
-    ```
+
 
     
 
